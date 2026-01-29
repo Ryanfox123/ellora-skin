@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiFacebook, SiInstagram, SiTiktok } from "react-icons/si";
 
 const NavSocials = () => {
@@ -5,13 +6,25 @@ const NavSocials = () => {
     <div className="mt-1 px-10 p-2 hidden md:block">
       <ul className="flex flex-row gap-5 justify-end">
         <li>
-          <SiFacebook size={30} style={{ color: "#846B8A" }} />
+          <Link href="https://www.facebook.com/?locale=en_GB">
+            <SiFacebook
+              size={30}
+              className="text-[#846B8A] hover:text-[#1877f2]"
+            />
+          </Link>
         </li>
         <li>
-          <SiInstagram size={30} style={{ color: "#846B8A" }} />
+          <Link href="https://www.instagram.com/">
+            <SiInstagram
+              size={30}
+              className="text-[#846B8A] hover:text-purple-400"
+            />
+          </Link>
         </li>
         <li>
-          <SiTiktok size={30} style={{ color: "#846B8A" }} />
+          <Link href="https://www.tiktok.com/en-GB/">
+            <SiTiktok size={30} className="text-[#846B8A] hover:text-black" />
+          </Link>
         </li>
       </ul>
     </div>
