@@ -3,9 +3,9 @@ import { SiFacebook, SiInstagram, SiTiktok } from "react-icons/si";
 
 const NavSocials = () => {
   return (
-    <div className="mt-1 px-10 p-2 hidden md:block">
+    <div className="mt-2 px-10 hidden md:block">
       <ul className="flex flex-row gap-5 justify-end">
-        <li>
+        <li className="flex flex-col">
           <Link href="https://www.facebook.com/?locale=en_GB">
             <SiFacebook
               size={30}
