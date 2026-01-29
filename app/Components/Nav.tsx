@@ -4,7 +4,7 @@ import NavSocials from "./NavSocials";
 
 const Nav = () => {
   return (
-    <div className="md:fixed z-0 bg-blush w-full border-b border-black">
+    <div className="md:fixed z-0 bg-blush w-full border-b border-lavender">
       <NavSocials />
       <div className="mx-auto text-center border-b pb-4 border-lavender mt-2">
         <h1 className="text-orchid w-max mx-auto">
